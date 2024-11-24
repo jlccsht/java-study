@@ -1,9 +1,9 @@
-package com.mint;
+package com.mint.sample;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
-public class Base64Test {
+public class Base64Sample {
     public static void main(String[] args) {
         byte[] helloBytes = stringToBytes("Hello");
         byte[] base64HelloBytes = Base64.getEncoder().encode(helloBytes);
