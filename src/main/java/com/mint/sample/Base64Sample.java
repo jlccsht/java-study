@@ -5,6 +5,8 @@ import java.util.Base64;
 
 public class Base64Sample {
     public static void main(String[] args) {
+//        Base64 的 encode 和 decode 方法输入输出都是byte[]
+
         byte[] helloBytes = stringToBytes("Hello");
         byte[] base64HelloBytes = Base64.getEncoder().encode(helloBytes);
 
